@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.SampleServices</groupId>
+  <artifactId>SampleServices_module</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>SampleServices_module</name>
+  <description>SampleServices_module</description>
+  <modules>
+    <module>artifacts/endpoint/QueryDoctorEP</module>
+    <module>artifacts/endpoint/GrandOakEP</module>
+    <module>artifacts/endpoint/ClemencyEP</module>
+    <module>artifacts/endpoint/PineValleyEP</module>
+    <module>artifacts/api/HealthcareAPI</module>
+  </modules>
+</project>
